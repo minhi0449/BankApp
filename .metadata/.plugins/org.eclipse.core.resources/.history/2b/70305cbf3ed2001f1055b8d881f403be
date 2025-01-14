@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  servlet:
+    charset: utf-8 #서블릿의 응답과 요청 인코딩을 UTF-8로 설정
+    force: true
+
+spring:
+  mvc:
+    view:
+        prefix: /WEB-INF/view #JSP 파일이 위치한 디렉토리 접두사로 설정
